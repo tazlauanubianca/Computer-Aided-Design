@@ -1,0 +1,7 @@
+JC = javac
+
+build:
+	$(JC) datareader/*.java factory/*.java shapes/*.java utils/*.java workspace/*.java visitable/*.java Main.java
+
+clean:
+	rm -rf datareader/*.class factory/*.class shapes/*.class utils/*.class workspace/*.class visitable/*.class main.class
